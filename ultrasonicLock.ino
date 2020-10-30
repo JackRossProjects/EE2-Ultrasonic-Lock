@@ -1,8 +1,8 @@
 #include <Servo.h>
 int servoPin = 3;
 Servo Servo1;
-int LED1 = 13;
-int LED2 = 12;
+int LED1 = 12;
+int LED2 = 11;
 const int pingPin = 7; // Trigger Pin of Ultrasonic Sensor
 const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
 int counter = 0;
